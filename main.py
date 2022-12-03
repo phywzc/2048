@@ -19,7 +19,7 @@ while needadd > 0:
     colNum = random.randint(0, function_2048.size - 1)
     if matrix[rowNum][colNum] == 0:
         matrix[rowNum][colNum] = function_2048.add_new()
-        needadd -= 1
+        needadd -= 1 #### Try
 
 print("Welcome to 2048! Valid input including 'w'(merge up), 'a'(merge left), 's'(merge down) or d(merge right).")
 function_2048.display(matrix)
