@@ -1,6 +1,6 @@
 import function_2048
 
-# Main
+# Test
 import copy
 import random
 
