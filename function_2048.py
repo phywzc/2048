@@ -2,7 +2,6 @@ import random
 import copy
 size = 4
 
-
 def display(matrix):
     # This function is used to create a board of current matrix in a more straightforward way
     largest = int(matrix[0][0])

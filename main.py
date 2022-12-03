@@ -2,7 +2,6 @@ import function_2048
 import copy
 import random
 
-
 matrix = []
 # Create a empty matrix
 for i in range(function_2048.size):
